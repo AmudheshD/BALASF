@@ -1,0 +1,32 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test.routing-sample.controller.ViewRes"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Welcome to Shop Floor portal" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<ObjectHeader title="Click on the cards to View more information on Planned and Production order "
+						responsive="true" class="sapUiResponsivePadding--header">
+						
+						<markers>
+							<ObjectMarker type="Favorite"/>
+							<ObjectMarker type="Flagged"/>
+							
+						</markers>
+					</ObjectHeader>
+					<html:div class="notificationMain">
+						<html:div class="notifiationsub1">
+							<ImageContent src="sap-icon://order-status" class="noti-image"/>
+							<Text class="noti-cont" text="Planned order"/>
+							<Button text="Click Here!" class="noti-btn" press="notiRes"/>
+						</html:div>
+						<html:div class="notifiationsub2">
+							<ImageContent src="sap-icon://factory" class="noti-image1"/>
+							<Text class="noti-cont1" text="Production Order"/>
+							<Button text="Click Here!" class="noti-btn" press="workorderRes"/>
+						</html:div>
+					</html:div>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

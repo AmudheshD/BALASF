@@ -1,0 +1,48 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test.routing-sample.controller.productionOrder"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					<Table id="idOrdersTable" items="{notificationList>/results}" mode="SingleSelectMaster" selectionChange="action">
+						<headerToolbar>
+							<OverflowToolbar>
+								<Title text="Production Order"/>
+								<ToolbarSpacer/>
+								<SearchField width="20%" search="onSearch" value="{/title}"/>
+								<Button tooltip="Sort" icon="sap-icon://sort" press="onSort"/>
+								<Button tooltip="Group" icon="sap-icon://group-2" press="onGroup"/>
+							</OverflowToolbar>
+						</headerToolbar>
+						<columns>
+							<Column>
+								<Text text="MaterialText"/>
+							</Column>
+							<Column>
+								<Text text="OrderType"/>
+							</Column>
+							<Column>
+								<Text text="EnterDate"/>
+							</Column>
+							<Column>
+								<Text text="FinishDate"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Navigation">
+								<cells>
+									<Text text="{notificationList>MaterialText}"/>
+									<Text text="{notificationList>OrderType}"/>
+									<Text text="{path : 'notificationList>EnterDate', type : 'sap.ui.model.type.DateTime', formatOptions: { style : 'medium'}}"></Text>
+									<Text text="{path : 'notificationList>FinishDate', type : 'sap.ui.model.type.DateTime', formatOptions: { style : 'medium'}}"></Text>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+					
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

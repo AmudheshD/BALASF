@@ -1,0 +1,253 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="test.routing-sample.controller.ViewFrom"  displayBlock="true">
+	<App id="idAppControl">
+		<pages displayBlock="true">
+			<Page title="Hey Hi Welcome home!">
+				<content>
+					<html:div class="cont-main">
+						<Text class="text" text="Transform your business digitally "/>
+						<Text class="text1" text="With us!"/>
+						<Text class="text2" text="Trusted by thousand's of businesses worldwide"/>
+						<html:div class="social-menu">
+							<html:ul>
+								<html:li>
+									<html:a href="#" target="blank">
+										<html:i class="fa-solid fa-square-share-nodes"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#" target="blank">
+										<html:i class="fa-solid fab fa-mobile-screen"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#" target="blank">
+										<html:i class="fa-solid fab fa-chart-simple"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#">
+										<html:i class="fa-solid fab fa-cloud-arrow-down"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#">
+										<html:i class="fa-solid fab fa-gears"></html:i>
+									</html:a>
+								</html:li>
+							</html:ul>
+							<html:div class="cont-socialmenu-heading">
+								<Text class="SM-p1" text="Social"/>
+								<Text class="SM-p1 ic2" text="Mobile"/>
+								<Text class="SM-p1 ic3" text="Analytics"/>
+								<Text class="SM-p1 ic4" text="Cloud"/>
+								<Text class="SM-p1 ic5" text="IOT"/>
+							</html:div>
+						</html:div>
+						<html:input type="email" class="lpinp1" placeholder="Enter your mail"/>
+						<Button text="Book a call" class="btn1" press="onPress"/>
+					</html:div>
+					<html:div class="homebg"></html:div>
+					<html:div class="lpmainimg"></html:div>
+					<html:div class="p2-heading">
+						<!--<html:h1 class="main-heading">why SAP ERP?-->
+						<!--	<html:span class="sub-heading">For your business</html:span>-->
+						<!--	<html:span>.</html:span>-->
+						<!--</html:h1>-->
+						<Text class="main-heading" text="Why SAP for your Business?"></Text>
+					</html:div>
+					<html:div class="p2-main-content">
+						<html:div class="p2-sec1">
+							<html:div class="p2-main-img"></html:div>
+						</html:div>
+						<html:div class="p2-sec2">
+							<html:p class="p2-des">Running a business can be
+								<html:mark class="highlight">
+									chaotic</html:mark>
+								when everything you have to monitor and control and strategize is separated. An ERP makes business administration less of a challenge by
+								unifying the
+								<html:mark class="highlight">
+									data collected by various programs or business departments and centralizing it all in one place</html:mark>. Not only does this accelerate
+								the speed at which you get information, but it shows you how everything interconnects, what has to change, and which decisions are most
+								beneficial.
+							</html:p>
+							<html:h1 class="p2-des-h2">
+								Business benefits of implementing SAP ERP
+							</html:h1>
+							<html:div class="p2-cont-list">
+								<html:ul class="des-list">
+									<html:li>Improved Cost-Efficiency
+									</html:li>
+									<html:li>Better Collaboration Throughout Business
+									</html:li>
+									<html:li>Enhanced Data Management
+									</html:li>
+									<html:li>Improved Data Security
+									</html:li>
+									<html:li>Scalability
+									</html:li>
+									<html:li>Faster Forecasting and Analysis
+									</html:li>
+									<html:li>Customizable
+									</html:li>
+									<html:li>
+										Customer Service
+									</html:li>
+								</html:ul>
+							</html:div>
+							<html:div class="img-cont"></html:div>
+						</html:div>
+					</html:div>
+					<html:div class="p3-main">
+						<html:div class="p3-hed-cont">
+							<html:h1>Already a Customer?
+								<html:span class="p3-hed-span">
+									login here</html:span>.</html:h1>
+						</html:div>
+						<html:div class="cont1">
+							<html:div class="item1 shape">
+								<html:img src="./images/4.png" class="item1-img2" alt=""></html:img>
+								<!--<html:h1 class="item-hed">Customer Portal</html:h1>-->
+								<!--<html:p class="item-dec">click the below button to login.</html:p>-->
+								<Text class="text5 sub1" text="Maintenance Portal"/>
+								<Text class="text4" text="Click the below button to login"/>
+								<Button text="Login" class="port-log-btn" press="onPress"/>
+							</html:div>
+							<html:div class="item2 shape">
+								<html:img src="./images/5.png" class="item1-img" alt=""></html:img>
+								<Text class="text3 sub2" text="Quality Check"/>
+								<Text class="text4" text="Click the below button to login"/>
+								<Button text="Login" class="port-log-btn" press="onPress"/>
+							</html:div>
+							<html:div class="item3 shape">
+								<html:img src="./images/6.png" class="item1-img" alt=""></html:img>
+								<Text class="text3 sub3" text="Shop floor Portal"/>
+								<Text class="text4" text="Click the below button to login"/>
+								<Button text="Login" class="port-log-btn" press="onPress"/>
+							</html:div>
+							<html:div class="item4 shape">
+								<html:img src="./images/7.png" class="item1-img" alt=""></html:img>
+								<Text class="text3 sub4" text="EHSM"/>
+								<Text class="text4" text="Click the below button to login"/>
+								<Button text="Login" class="port-log-btn" press="onPress"/>
+							</html:div>
+						</html:div>
+						<!--<html:div class="cont2">-->
+						<!--	<html:div class="item5 shape">-->
+						<!--		<html:img src="./images/5.png" class="item1-img" alt=""></html:img>-->
+						<!--		<Text class="text3" text="Quality Check"/>-->
+						<!--		<Text class="text4" text="Click the below button to login"/>-->
+						<!--		<Button text="Login" class="port-log-btn" press="onPress"/>-->
+						<!--	</html:div>-->
+						<!--	<html:div class="item6 shape">-->
+						<!--		<html:img src="./images/6.png" class="item1-img" alt=""></html:img>-->
+						<!--		<Text class="text3" text="Shop floor Portal"/>-->
+						<!--		<Text class="text4" text="Click the below button to login"/>-->
+						<!--		<Button text="Login" class="port-log-btn" press="onPress"/>-->
+						<!--	</html:div>-->
+						<!--	<html:div class="item7 shape">-->
+						<!--		<html:img src="./images/7.png" class="item1-img" alt=""></html:img>-->
+						<!--		<Text class="text3" text="EHSM"/>-->
+						<!--		<Text class="text4" text="Click the below button to login"/>-->
+						<!--		<Button text="Login" class="port-log-btn" press="onPress"/>-->
+						<!--	</html:div>-->
+						<!--</html:div>-->
+					</html:div>
+					<html:div class="p4-main">
+						<html:div class="p4-hed-cont">
+							<html:h1>Want to Implement
+								<html:mark class="p4-highlight">
+									<html:span class="p4-highlight-color">
+										SAP ERP in you business
+									</html:span>
+								</html:mark>
+								?
+							</html:h1>
+							<html:h2>Get in Touch with us!</html:h2>
+						</html:div>
+						<html:div class="flex-main-cont">
+							<html:div class="flex-left-cont">
+								<html:div class="p4-mail">
+									<html:div class="mail-img">
+										<html:img src="./images/p4-contimg1.png" class="p4-sm-img" alt=""></html:img>
+									</html:div>
+									<html:div class="mail-cont">
+										<html:h2>balakumar062001@gmail.com</html:h2>
+									</html:div>
+								</html:div>
+								<html:div class="p4-phone">
+									<html:img src="./images/p4-contimg2.png" class="p4-sm-img1" alt=""></html:img>
+									<html:h2>+919629660671</html:h2>
+									<html:h2>0422-43228545</html:h2>
+								</html:div>
+							</html:div>
+							<html:div class="flex-Right-cont">
+								<html:div class="p4-form-cont">
+									<html:h1>Enter the details</html:h1>
+									<html:form action="#">
+										<!--<html:label class="p4-lable" for="#">Full name</html:label>-->
+										<text class="p4-lable" text="Full Name"></text>
+										<!--<html:input type="text" class="p4-input" placeholder="Type here"></html:input>-->
+										<Input id="user" class="p4-input" placeholder="type here"></Input>
+										<!--<html:label class="p4-lable" for="#">Work mail Id</html:label>-->
+										<text class="p4-lable" text="Work mail Id"></text>
+										<!--<html:input type="text" class="p4-input" placeholder="Type here"></html:input>-->
+										<Input id="pass" class="p4-input" placeholder="type here"></Input>
+										<!--<html:label class="p4-lable" for="#">Message</html:label>-->
+										<text class="p4-lable" text="Message"></text>
+										<html:textarea placeholder="Enter your quries here" name="message" class="textarea-p4" id="message" rows="5"></html:textarea>
+										<Button text="Send us" class="p4-btn" press=""/>
+									</html:form>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:footer class="fotter">
+						<html:div class="nav-list">
+							<Text class="fotter-header" text="Navigation"></Text>
+							<Text class="fotter-item" text="Home"></Text>
+							<Text class="fotter-item" text="Why SAP"></Text>
+							<Text class="fotter-item" text="Portal Login"></Text>
+							<Text class="fotter-item" text="Contact us"></Text>
+						</html:div>
+						<html:div class="portal-list">
+							<Text class="fotter-header" text="Portal"></Text>
+							<Text class="fotter-item" text="Customer Portal"></Text>
+							<Text class="fotter-item" text="Vendor Portal"></Text>
+							<Text class="fotter-item" text="Employee Portal"></Text>
+							<Text class="fotter-item" text="Maintenance Portal"></Text>
+							<Text class="fotter-item" text="Quality Portal"></Text>
+							<Text class="fotter-item" text="Shop Floor Portal"></Text>
+							<Text class="fotter-item" text="EHSM Portal"></Text>
+						</html:div>
+						<html:div class="contact-info">
+							<Text class="fotter-header" text="Contact us"></Text>
+							<Text class="fotter-header2" text="Phone Number"></Text>
+							<Text class="fotter-item" text="9629660671"></Text>
+							<Text class="fotter-header2" text="Mail"></Text>
+							<Text class="fotter-item" text="balakumar062001@gmial.com"></Text>
+						</html:div>
+						<html:div class="hero">
+						<Text class="fotter-header" text="Follow us!" ></Text>
+						<html:div class="social-links">
+							<html:a href="">
+								<html:i class="fab fa-facebook-f"></html:i>
+							</html:a>
+							<html:a href="">
+								<html:i class="fab fa-instagram"></html:i>
+							</html:a>
+							<html:a href="">
+								<html:i class="fab fa-twitter"></html:i>
+							</html:a>
+							<html:a href="">
+								<html:i class="fab fa-linkedin-in"></html:i>
+							</html:a>
+						</html:div>
+					</html:div>
+						
+					</html:footer>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

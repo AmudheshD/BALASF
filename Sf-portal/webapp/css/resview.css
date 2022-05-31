@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h1 {
+    font-size: 4rem;
+    color: yellow;
+    margin-top: 5%;
+    margin-left: 3.5%;
+}
+
+.main h2,
+.main h3 {
+    margin-top: 1rem;
+    margin-left: 3.5%;
+}
+
+.main {
+    height: 33rem;
+    width: 100%;
+    background-image: url('./images/mainpic\ \(1\).png');
+    background-size: 20rem 20rem;
+    background-repeat: no-repeat;
+    background-position: 55rem 10rem;
+}
+
+.contact {
+    margin-top: 3rem;
+    margin-left: 3.5%;
+    display: flex;
+    height: 10rem;
+    width: 60%;
+}
+
+.img-contact {
+    background-image: url('./images/icon-portal\ \(1\).png');
+    height: 10rem;
+    width: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-main {
+    height: 10rem;
+    width: 100%;
+}
+
+.main-inp {
+    height: 2.5rem;
+    width: 20rem;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.main-inp::placeholder {
+    padding: .5rem;
+}
+
+.btn-main {
+    margin-top: 2%;
+    margin-left: 21%;
+    height: 2.5rem;
+    width: 10rem;
+    background-color: yellow;
+    border: none;
+    border-radius: .5rem;
+}
+
+.p2-main {
+    height: 40rem;
+    width: 100%;
+}
+
+.p2-main-hed {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sap-exp {
+    height: 13rem;
+    width: 100%;
+    display: flex;
+}
+
+.img-sap {
+    background-image: url('./images/mainpic\ \(2\).png');
+    height: 40rem;
+    width: 40rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3.5%;
+}
+
+.sap-cont p {
+    margin-left: 5%;
+    padding: 1rem;
+    margin-top: 3%;
+    font-size: 1.24rem;
+}
+
+.sub-hed {
+    height: 5rem;
+    width: 100%;
+}
+
+.p2-hed {
+    margin-left: 18%;
+    font-size: 3rem;
+}
+
+.feature-flex {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+}
+
+.feature-list {
+    height: 10rem;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.feature-list1 {
+    height: 10rem;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.p2-main {
+    background-image: url('./images/mainpic\ \(3\).png');
+    background-size: 20rem 20rem;
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+}

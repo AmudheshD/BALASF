@@ -1,0 +1,52 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test.routing-sample.controller.PlannedOrder"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					<Text text = "{/noOfOrders}"></Text>
+					<Table  id="idOrdersTable" items="{notificationList>/results}" mode="SingleSelectMaster" selectionChange="action">
+						<headerToolbar>
+							<OverflowToolbar>
+								<Title text="Planned Order"/>
+								<ToolbarSpacer/>
+								<DatePicker id="DP1" placeholder="Enter Date" change="handleChange" class="sapUiResponsiveMargin" width="auto"/>
+								<DatePicker id="DP2" placeholder="Enter Date" change="handleChange" class="sapUiResponsiveMargin" width="auto"/>
+								<Button xmlns="sap.m" icon="sap-icon://filter" text="Filter" press="filter" tooltip="Used to generate random number"
+									class="sapUiResponsiveMargin" width="auto"/>
+							</OverflowToolbar>
+						</headerToolbar>
+						<columns>
+							<Column>
+								<Text text="PlannedorderNum"/>
+							</Column>
+							<Column>
+								<Text text="Material"/>
+							</Column>
+							<Column>
+								<Text text="ProcurementType"/>
+							</Column>
+							<Column>
+								<Text text="OrderStartDate"/>
+							</Column>
+							<Column>
+								<Text text="OrderFinDate"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Navigation">
+								<cells>
+									<Text text="{notificationList>PlannedorderNum}"/>
+									<Text text="{notificationList>Material}"></Text>
+									<Text text="{notificationList>ProcurementType}"></Text>
+									<Text text="{path : 'notificationList>OrderStartDate', type : 'sap.ui.model.type.DateTime', formatOptions: { style : 'medium'}}"></Text>
+									<Text text="{path : 'notificationList>OrderFinDate', type : 'sap.ui.model.type.DateTime', formatOptions: { style : 'medium'}}"></Text>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

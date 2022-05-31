@@ -1,0 +1,92 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test.routing-sample.controller.ViewTo"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page >
+				<content>
+					<Button text="back" press="onNavBack"/>
+					<html:div class="parent">
+						<html:div class="child1">
+							<html:div class="centerelements">
+								<html:div class="pn-login-image"></html:div>
+								<html:h1 class="pm-cont">Welcome to Shop Floor</html:h1>
+								
+								<html:h1 class="pm-cont">Portal</html:h1>
+								<html:p class="pm-sub-cont">One stop for getting details on which material is to be processed, at which location, at what time and how much work is required
+								</html:p>
+								<html:p class="pm-sub-cont1">of the organization
+								</html:p>
+							</html:div>
+						</html:div>
+						<html:div class="child2">
+							<html:div class="container">
+								<html:div class="signup-container">
+									<html:h1 class="heading-primary">Log in
+										<html:span class="span-blue">.</html:span>
+									</html:h1>
+									<html:p class="text-mute">Enter your credentials to access your account.</html:p>
+									<html:form class="signup-form">
+										<html:lable class="inp">
+											<!--<html:input type="email" class="input-text" id="" placeholder="hey"/>-->
+											<Input id="user" class="input-text"></Input>
+											<html:span class="label">Email</html:span>
+											<html:span class="input-icon">
+												<html:i class="fa-solid fa-envelope"></html:i>
+											</html:span>
+										</html:lable>
+										<html:label class="inp">
+											<!--<html:input type="password" class="input-text" placeholder="hey" id="pass"/>-->
+											<Input id="pass" type="Password" class="input-text"></Input>
+											<html:span class="label">Password</html:span>
+											<html:span class="input-icon input-icon-password">
+												<html:i class="fa-solid fa-eye"></html:i>
+											</html:span>
+										</html:label>
+										<!--<html:button class="btn btn-login" onclick="onPress">Login</html:button>-->
+										<Button text="login" class="btn-new" press="onPress"/>
+									</html:form>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<!--<html:div class="parent">-->
+					<!--	<html:div class="child1">-->
+					<!--		<html:div class="cont-container">-->
+					<!--			<html:h1 class="main-hed">Welcome to Plant-->
+					<!--			</html:h1>-->
+					<!--			<html:h1 class="main-hed">Maintanance-->
+					<!--			</html:h1>-->
+					<!--			<html:h1 class="main-hed">Portal</html:h1>-->
+					<!--			<html:p class="sub-hed">One stop for getting details on maintenance related activities of the organization.-->
+					<!--			</html:p>-->
+					<!--		</html:div>-->
+					<!--	</html:div>-->
+					<!--	<html:div class="child2">-->
+					<!--		<html:div class="cont2-container">-->
+					<!--			<html:div class="signup-cont">-->
+					<!--				<html:h1>Log in</html:h1>-->
+					<!--				<html:p>Enter your credentials to access your account</html:p>-->
+					<!--			</html:div>-->
+					<!--			<html:form action="#" class="signup-form">-->
+					<!--				<html:div class="form-cont">-->
+					<!--					<html:label for="#" class="inp">-->
+					<!--						Email</html:label>-->
+					<!--					<html:br></html:br>-->
+					<!--						<Input id="user" class="input-new"></Input>-->
+					<!--							<html:br></html:br>-->
+					<!--								<html:label for="#" class="inp">-->
+					<!--									Password</html:label>-->
+					<!--								<html:br></html:br>-->
+					<!--									<Input id="pass" type="Password" class="input-new"></Input>-->
+					<!--										<html:br></html:br>-->
+					<!--											<Button text="login" class="btn-new" press="onPress"/>-->
+					<!--										</html:div>-->
+					<!--									</html:form>-->
+					<!--								</html:div>-->
+					<!--							</html:div>-->
+					<!--						</html:div>-->
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
